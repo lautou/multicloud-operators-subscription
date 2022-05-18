@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/nginx:1.16.1
+        image: registry.redhat.io/rhel8/nginx:latest
         ports:
         - containerPort: 8080
