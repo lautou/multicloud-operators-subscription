@@ -17,5 +17,6 @@ spec:
       containers:
       - name: nginx
         image: registry.redhat.io/rhel8/nginx-116:latest
+        command: ['nginx', '-g', '"daemon off;"']
         ports:
         - containerPort: 8080
