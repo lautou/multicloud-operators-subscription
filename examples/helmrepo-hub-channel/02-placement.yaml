@@ -1,6 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
+  namespace: dev
   name: nginx-pr-helmrepo
 spec:
   clusterReplicas: 10
